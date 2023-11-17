@@ -10,6 +10,9 @@ function NavBar() {
       <div className=" hover:bg-zinc-800 p-1.5 rounded-md cursor-pointer">
         <FaSquareXTwitter className="h-5 w-5 text-gray-300 bg-transparent" />
       </div>
+      <div className=" hover:bg-zinc-800 p-1.5 rounded-md cursor-pointer">
+        <FaSquareXTwitter className="h-5 w-5 text-gray-300 bg-transparent" />
+      </div>
       <div className=" hover:bg-zinc-800 p-1.5 rounded-full cursor-pointer">
         <FaGithub className="h-5 w-5 text-gray-300 bg-transparent" />
       </div>
