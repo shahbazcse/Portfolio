@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { PiArrowUpRightBold } from "react-icons/pi";
 
 function Introduction() {
   const resumeLink = "";
@@ -21,12 +22,12 @@ function Introduction() {
         href={resumeLink}
         target="_blank"
         rel="noreferrer"
-        className="flex items-center gap-3 bg-zinc-900 px-3 py-1 hover:underline underline-offset-4 rounded-md cursor-pointer mr-auto"
+        className="flex items-center gap-1.5 bg-zinc-900 px-3 py-1 hover:underline underline-offset-4 rounded-md cursor-pointer mr-auto"
       >
         <span className="text-blue-500 cursor-pointer bg-transparent text-[0.9rem]">
           View Resume
         </span>
-        <span className="bg-transparent"></span>
+        <PiArrowUpRightBold className="h-5 w-5 text-white bg-transparent" />
       </a>
     </div>
   );
