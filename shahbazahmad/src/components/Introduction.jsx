@@ -2,13 +2,12 @@ import React from "react";
 
 function Introduction() {
   return (
-    <div className="flex flex-col lg:w-[45%] gap-3 my-4">
+    <div className="flex flex-col lg:w-[45%] gap-3 my-4 text-md">
       <div>logo</div>
-      <div>name</div>
+      <div>I'm <span className="text-white">Shahbaz</span>, a developer, designer, and problem solver.</div>
       <div>
-        introduction: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Quibusdam ipsam fuga expedita ducimus perspiciatis sapiente fugiat,
-        officia accusamus reiciendis nobis!
+        As a full-stack developer I've built and shipped 12+ products (with over 160K users), been
+        2 times a Product Hunt Maker of The Year finalist, and much more ✌
       </div>
       <div>email</div>
     </div>
