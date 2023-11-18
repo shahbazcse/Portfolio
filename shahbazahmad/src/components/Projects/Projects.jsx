@@ -64,7 +64,7 @@ function Projects() {
           Design
         </div>
       </div>
-      <div className=" h-fit flex items-center justify-between xl:gap-0 md:gap-8 flex-wrap xl:pb-6 md:pb-14">
+      <div className="h-fit flex items-center justify-between xl:gap-0 md:gap-8 flex-wrap xl:pb-6 md:pb-14">
         {filteredProjects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
