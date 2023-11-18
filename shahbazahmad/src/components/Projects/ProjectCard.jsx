@@ -5,7 +5,7 @@ import { PiArrowSquareOutBold } from "react-icons/pi";
 function ProjectCard({ project }) {
   const { title, description, img, vid, tech, source, live, tags } = project;
   return (
-    <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[38vh] w-full my-8 text-[0.9rem]">
+    <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[38vh] w-full my-6 text-[0.9rem]">
       <img
         src={img || "https://placehold.co/600x400"}
         alt=""
