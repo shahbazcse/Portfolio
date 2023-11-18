@@ -9,18 +9,18 @@ function ItemsContainer() {
   };
   return (
     <div className="flex flex-col">
-      <div className="flex gap-6 text-[0.9rem] font-bold">
+      <div className="flex gap-6 text-[0.85rem] font-bold" >
         <button
           onClick={() => setMenu("Projects")}
           style={menu === "Projects" ? makeActive : {}}
-          className="tracking-[2px] hover:text-stone-300"
+          className="tracking-wide hover:text-stone-300"
         >
           Projects
         </button>
         <button
           onClick={() => setMenu("Blogs")}
           style={menu === "Blogs" ? makeActive : {}}
-          className="tracking-wider hover:text-stone-300"
+          className="tracking-wide hover:text-stone-300"
         >
           Blogs
         </button>
