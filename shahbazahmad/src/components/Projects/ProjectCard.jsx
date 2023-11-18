@@ -30,7 +30,7 @@ function ProjectCard({ project }) {
           href={source}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center justify-center gap-1.5 px-4 py-1 bg-zinc-900 hover:bg-zinc-800 rounded-lg text-white font-bold cursor-pointer"
+          className="flex items-center justify-center gap-2 px-4 py-1 bg-zinc-900 hover:bg-zinc-800 rounded-lg text-white font-bold cursor-pointer"
         >
           <span className="bg-transparent">Source</span>
           <AiFillGithub className="bg-transparent h-4 w-4" />

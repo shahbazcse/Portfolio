@@ -20,7 +20,7 @@ function Outro() {
           href="mailto:cseshahbaz@gmail.com"
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-1.5 hover:bg-zinc-900 p-1.5 pt-0.5 rounded-md cursor-pointer mr-auto"
+          className="flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 p-1.5 pt-0.5 rounded-md cursor-pointer mr-auto"
         >
           <span className="text-blue-600 underline underline-offset-4 cursor-pointer bg-transparent">
             cseshahbaz@gmail.com

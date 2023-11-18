@@ -22,12 +22,12 @@ function Introduction() {
         href={resumeLink}
         target="_blank"
         rel="noreferrer"
-        className="flex items-center gap-1.5 bg-zinc-900 px-3 py-1.5 hover:underline underline-offset-4 rounded-md cursor-pointer mr-auto"
+        className="flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 text-white px-3 py-1.5 rounded-md cursor-pointer mr-auto"
       >
-        <span className="text-blue-500 cursor-pointer bg-transparent text-[0.9rem]">
+        <span className="cursor-pointer bg-transparent text-[0.9rem]">
           View Resume
         </span>
-        <PiArrowUpRightBold className="h-5 w-5 mt-1 text-white bg-transparent" />
+        <PiArrowUpRightBold className="h-5 w-5 mt-1 bg-transparent" />
       </a>
     </div>
   );
