@@ -15,7 +15,7 @@ function Projects() {
 
   return (
     <div className="flex flex-col">
-      <div className="md:my-3 mt-4 flex items-start gap-2 text-[0.9rem] text-white md:flex-wrap md:overflow-none overflow-x-auto h-fit">
+      <div className="md:my-4 mt-4 flex items-start gap-2 text-[0.9rem] text-white md:flex-wrap md:overflow-none overflow-x-auto h-fit">
         <div
           onClick={() => setFilter("all")}
           style={
