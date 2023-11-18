@@ -9,7 +9,7 @@ function ItemsContainer() {
   };
   return (
     <div className="flex flex-col">
-      <div className="flex gap-6 text-[0.85rem] font-bold" >
+      <div className="flex gap-6 text-[0.85rem] font-bold">
         <button
           onClick={() => setMenu("Projects")}
           style={menu === "Projects" ? makeActive : {}}
@@ -25,7 +25,7 @@ function ItemsContainer() {
           Blogs
         </button>
       </div>
-      <div className="flex flex-wrap min-h-[48vh] h-fit my-3 border-y-[1px] border-[#4e4e4e70]">
+      <div className="h-fit my-3 border-y-[1px] border-[#4e4e4e70]">
         {menu === "Projects" && <Projects />}
         {menu === "Blogs" && <Blogs />}
       </div>
