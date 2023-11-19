@@ -1,3 +1,6 @@
+import codegram from "../assets/projects/codegram.png";
+import pixelui from "../assets/projects/pixelui.png";
+
 /* Project Format
 {
     title: "",
@@ -16,7 +19,7 @@ export const projects = [
     title: "Codegram",
     description:
       "A unique social media app for coders, fostering connection, knowledge sharing, and updates on coding trends.",
-    img: "",
+    img: codegram,
     vid: "",
     tech: [
       "React.js",
@@ -33,7 +36,7 @@ export const projects = [
     title: "PixelUI",
     description:
       "A toolkit to empower devs and designers for seamless, stunning user interfaces. Offers meticulously crafted CSS component.",
-    img: "",
+    img: pixelui,
     vid: "",
     tech: ["CSS", "React.js", "Context\xa0API", "JavaScript", "Git"],
     source: "https://github.com/shahbazcse/PixelUI",
@@ -57,7 +60,13 @@ export const projects = [
       "An online clothing e-commerce store that aims to provide users with a seamless shopping experience for fashion clothing.",
     img: "",
     vid: "",
-    tech: ["React.js", "Tailwind\xa0CSS", "Context\xa0API", "Git", "JavaScript"],
+    tech: [
+      "React.js",
+      "Tailwind\xa0CSS",
+      "Context\xa0API",
+      "Git",
+      "JavaScript",
+    ],
     source: "https://github.com/shahbazcse/EastSide",
     live: "https://eastsidestore.netlify.app/",
     tags: ["frontend"],
