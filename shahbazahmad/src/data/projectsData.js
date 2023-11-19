@@ -1,5 +1,16 @@
 import codegram from "../assets/projects/codegram.png";
 import pixelui from "../assets/projects/pixelui.png";
+import tastio from "../assets/projects/tastio.png";
+import eastside from "../assets/projects/eastside.png";
+import orbix from "../assets/projects/orbix.png";
+import authly from "../assets/projects/authly.png";
+import gympro from "../assets/projects/gympro.png";
+import growcash from "../assets/projects/growcash.png";
+import tripix from "../assets/projects/tripix.png";
+import scholify from "../assets/projects/scholify.png";
+import medicare from "../assets/projects/medicare.png";
+import recroot from "../assets/projects/recroot.png";
+import inventri from "../assets/projects/inventri.png";
 
 /* Project Format
 {
@@ -47,7 +58,7 @@ export const projects = [
     title: "Tastio Backend",
     description:
       "A robust and versatile set of endpoints that empower developers to create feature-rich restaurant-centric applications.",
-    img: "",
+    img: tastio,
     vid: "",
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/TastioBackend",
@@ -58,7 +69,7 @@ export const projects = [
     title: "EastSide",
     description:
       "An online clothing e-commerce store that aims to provide users with a seamless shopping experience for fashion clothing.",
-    img: "",
+    img: eastside,
     vid: "",
     tech: [
       "React.js",
@@ -75,7 +86,7 @@ export const projects = [
     title: "Orbix",
     description:
       "Space exploration data specifically tailored to provide a comprehensive catalog of the rockets and capsules used by SpaceX.",
-    img: "",
+    img: orbix,
     vid: "",
     tech: [
       "React.js",
@@ -93,7 +104,7 @@ export const projects = [
     title: "Authly Backend",
     description:
       "Authentication API designed to seamlessly integrate authentication and user management features into your application.",
-    img: "",
+    img: authly,
     vid: "",
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/AuthlyBackend",
@@ -104,7 +115,7 @@ export const projects = [
     title: "GymPro",
     description:
       "Feature-rich fitness app designed to help you achieve your health goals with features like exercise, goal tracking, etc.",
-    img: "",
+    img: gympro,
     vid: "",
     tech: [
       "React.js",
@@ -122,7 +133,7 @@ export const projects = [
     title: "GrowCash",
     description:
       "All-in-one financial companion, offers powerful tools for Income Management, Expense Tracking, Savings, and Detailed Reports.",
-    img: "",
+    img: growcash,
     vid: "",
     tech: [
       "React.js",
@@ -140,7 +151,7 @@ export const projects = [
     title: "Tripix Backend",
     description:
       "API endpoints to provide users with seamless travel recommendations and destination management.",
-    img: "",
+    img: tripix,
     vid: "",
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/TripixBackend",
@@ -151,7 +162,7 @@ export const projects = [
     title: "Scholify",
     description:
       "Efficiently manage student and teacher records, view class-specific data, and access school-wide statistics.",
-    img: "",
+    img: scholify,
     vid: "",
     tech: [
       "React.js",
@@ -169,7 +180,7 @@ export const projects = [
     title: "Medicare",
     description:
       "Streamline the management of patient information in a healthcare facility. Offers tools like patient records, view ward-specific data, etc.",
-    img: "",
+    img: medicare,
     vid: "",
     tech: [
       "React.js",
@@ -187,7 +198,7 @@ export const projects = [
     title: "Recroot",
     description:
       "Simplify the process of recruiting, tracking, and engaging volunteers for various events using powerful management tools.",
-    img: "",
+    img: recroot,
     vid: "",
     tech: [
       "React.js",
@@ -205,7 +216,7 @@ export const projects = [
     title: "Inventri",
     description:
       "Business-centric app to efficiently manage the inventories, track sales, and generate reports for informed decision-making.",
-    img: "",
+    img: inventri,
     vid: "",
     tech: [
       "React.js",
