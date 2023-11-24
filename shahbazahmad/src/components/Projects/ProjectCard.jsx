@@ -5,7 +5,7 @@ import { PiArrowSquareOutBold } from "react-icons/pi";
 function ProjectCard({ project }) {
   const { title, description, img, tech, source, live } = project;
   return (
-    <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[38vh] w-full my-6 text-[0.9rem]">
+    <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[37vh] w-full my-6 text-[0.9rem]">
       <img
         src={img || "https://placehold.co/600x400"}
         alt=""
@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
       <p className="text-white text-[1.1rem] font-bold tracking-wide">
         {title}
       </p>
-      <p className="max-h-[10vh] overflow-auto">{description}</p>
+      <p className="h-fit overflow-auto">{description}</p>
       <div className="flex items-start gap-1 text-[0.8rem] font-poppins md:flex-wrap md:overflow-none md:h-[6.9vh] overflow-x-auto h-fit">
         {tech.map((i, index) => (
           <div
