@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { PiArrowUpRightBold } from "react-icons/pi";
+import { resume as resumeLink } from "../data/resume";
 
 function Introduction() {
-  const resumeLink = "";
   return (
     <div className="flex flex-col lg:w-[45%] gap-5 mt-4 mb-8 text-md">
       <div>
