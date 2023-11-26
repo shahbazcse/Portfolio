@@ -10,10 +10,10 @@ function Outro() {
         alt="Profile"
         className="h-12 w-12 rounded-full"
       />
-      <p className="lg:w-[45%] text-center">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
-        placeat cum sapiente officia impedit aliquid earum nihil quos vitae
-        ipsam.
+      <p className="lg:w-[45%] text-center leading-6">
+        Let's discuss how my skills align with your needs for an impactful
+        collaboration. Contact me for getting cool stuff done with a touch of magic.
+        ⚡
       </p>
       <div>
         <a
