@@ -1,11 +1,12 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import infinity from "../assets/infinity.png";
 import { PiArrowUpRightBold } from "react-icons/pi";
 import { resume as resumeLink } from "../data/resume";
 
 function Introduction() {
   return (
-    <div className="flex flex-col lg:w-[45%] gap-5 mt-4 mb-8 text-md">
+    <div className="flex flex-col lg:w-[53%] gap-5 mt-4 mb-8 text-md">
       <div>
         <img src={logo} alt="logo" className="h-10 w-10" />
       </div>
@@ -14,9 +15,11 @@ function Introduction() {
         and problem solver.
       </div>
       <div>
-        As a full-stack developer I've built and shipped 12+ products (with over
-        160K users), been 2 times a Product Hunt Maker of The Year finalist, and
-        much more ✌
+        Specializing in crafting dynamic, <span className="text-gray-200">engaging interfaces</span> with
+        clean and optimized code, I excel in creating seamless and intuitive{" "}
+        <span className="text-gray-200">user experiences</span> using{" "}
+        <span className="text-gray-200">cutting-edge technologies</span> for high-quality web
+        applications. ✨
       </div>
       <a
         href={resumeLink}
