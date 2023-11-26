@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import infinity from "../assets/infinity.png";
 import { PiArrowUpRightBold } from "react-icons/pi";
 import { resume as resumeLink } from "../data/resume";
 
