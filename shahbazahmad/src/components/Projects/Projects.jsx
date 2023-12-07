@@ -13,9 +13,12 @@ function Projects() {
     (p) => (filter === "all") | p.tags.includes(filter)
   );
 
+  const projectsCount = (tag) =>
+    tag === "all" ? projects : projects.filter((p) => p.tags.includes(tag));
+
   return (
     <div className="flex flex-col">
-      <div className="md:my-4 mt-4 flex items-start gap-2 text-[0.9rem] text-white md:flex-wrap md:overflow-none overflow-x-auto h-fit">
+      <div className="md:my-4 mt-4 flex items-start gap-2 text-[0.8rem] text-white font-manrope font-bold tracking-wide md:flex-wrap md:overflow-none overflow-x-auto h-fit">
         <div
           onClick={() => setFilter("all")}
           style={
@@ -34,7 +37,7 @@ function Projects() {
           }
           className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          {"Full\xa0Stack"}
+          {"Full\xa0Stack"} ({projectsCount("fullstack").length})
         </div>
         <div
           onClick={() => setFilter("frontend")}
@@ -43,7 +46,7 @@ function Projects() {
           }
           className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Frontend
+          Frontend ({projectsCount("frontend").length})
         </div>
         <div
           onClick={() => setFilter("backend")}
@@ -52,7 +55,7 @@ function Projects() {
           }
           className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Backend
+          Backend ({projectsCount("backend").length})
         </div>
         <div
           onClick={() => setFilter("design")}
@@ -61,7 +64,7 @@ function Projects() {
           }
           className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Design
+          Design ({projectsCount("design").length})
         </div>
       </div>
       <div className="h-fit flex items-center justify-between xl:gap-0 md:gap-8 flex-wrap xl:pb-6 md:pb-14">
