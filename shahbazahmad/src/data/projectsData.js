@@ -18,6 +18,10 @@ import inventri from "../assets/projects/inventri.png";
     description: "",
     img: "",
     vid: "",
+    date: {
+      month: "",
+      year: "",
+    },
     tech: [],
     source: "",
     live: "",
@@ -32,6 +36,10 @@ export const projects = [
       "A unique social media app for coders, fostering connection, knowledge sharing, and updates on coding trends.",
     img: codegram,
     vid: "",
+    date: {
+      month: "June",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Tailwind\xa0CSS",
@@ -49,6 +57,10 @@ export const projects = [
       "A toolkit to empower devs and designers for seamless, stunning user interfaces. Offers meticulously crafted CSS component.",
     img: pixelui,
     vid: "",
+    date: {
+      month: "November",
+      year: 2023,
+    },
     tech: ["CSS", "React.js", "Context\xa0API", "JavaScript", "Git"],
     source: "https://github.com/shahbazcse/PixelUI",
     live: "https://pixelui.vercel.app/",
@@ -60,6 +72,10 @@ export const projects = [
       "A robust and versatile set of endpoints that empower developers to create feature-rich restaurant-centric applications.",
     img: tastio,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/TastioBackend",
     live: "https://documenter.getpostman.com/view/29803209/2s9YJdV2AA",
@@ -71,6 +87,10 @@ export const projects = [
       "An online clothing e-commerce store that aims to provide users with a seamless shopping experience for fashion clothing.",
     img: eastside,
     vid: "",
+    date: {
+      month: "May",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Tailwind\xa0CSS",
@@ -88,6 +108,10 @@ export const projects = [
       "Space exploration data specifically tailored to provide a comprehensive catalog of the rockets and capsules used by SpaceX.",
     img: orbix,
     vid: "",
+    date: {
+      month: "August",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Tailwind\xa0CSS",
@@ -106,6 +130,10 @@ export const projects = [
       "Authentication API designed to seamlessly integrate authentication and user management features into your application.",
     img: authly,
     vid: "",
+    date: {
+      month: "November",
+      year: 2023,
+    },
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/AuthlyBackend",
     live: "https://documenter.getpostman.com/view/29803209/2s9YJc23KV",
@@ -117,6 +145,10 @@ export const projects = [
       "Feature-rich fitness app designed to help you achieve your health goals with features like exercise, goal tracking, etc.",
     img: gympro,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
@@ -135,6 +167,10 @@ export const projects = [
       "All-in-one financial companion, offers powerful tools for Income Management, Expense Tracking, Savings, and Detailed Reports.",
     img: growcash,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
@@ -153,6 +189,10 @@ export const projects = [
       "API endpoints to provide users with seamless travel recommendations and destination management.",
     img: tripix,
     vid: "",
+    date: {
+      month: "November",
+      year: 2023,
+    },
     tech: ["Node.js", "Express.js", "MongoDB", "Postman", "Git"],
     source: "https://github.com/shahbazcse/TripixBackend",
     live: "https://documenter.getpostman.com/view/29803209/2s9YJaZQM1",
@@ -164,6 +204,10 @@ export const projects = [
       "Efficiently manage student and teacher records, view class-specific data, and access school-wide statistics.",
     img: scholify,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
@@ -182,6 +226,10 @@ export const projects = [
       "Streamline the management of patient information in a healthcare facility. Offers tools like patient records, view ward-specific data, etc.",
     img: medicare,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
@@ -200,6 +248,10 @@ export const projects = [
       "Simplify the process of recruiting, tracking, and engaging volunteers for various events using powerful management tools.",
     img: recroot,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
@@ -218,6 +270,10 @@ export const projects = [
       "Business-centric app to efficiently manage the inventories, track sales, and generate reports for informed decision-making.",
     img: inventri,
     vid: "",
+    date: {
+      month: "October",
+      year: 2023,
+    },
     tech: [
       "React.js",
       "Redux\xa0Toolkit",
