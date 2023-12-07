@@ -55,7 +55,7 @@ export const projects = [
     tags: ["frontend", "design"],
   },
   {
-    title: "Tastio Backend",
+    title: "Tastio | Restaurant Management",
     description:
       "A robust and versatile set of endpoints that empower developers to create feature-rich restaurant-centric applications.",
     img: tastio,
@@ -101,7 +101,7 @@ export const projects = [
     tags: ["frontend"],
   },
   {
-    title: "Authly Backend",
+    title: "Authly | Authentication Management",
     description:
       "Authentication API designed to seamlessly integrate authentication and user management features into your application.",
     img: authly,
@@ -148,7 +148,7 @@ export const projects = [
     tags: ["frontend", "fullstack"],
   },
   {
-    title: "Tripix Backend",
+    title: "Tripix | Travel Management",
     description:
       "API endpoints to provide users with seamless travel recommendations and destination management.",
     img: tripix,
