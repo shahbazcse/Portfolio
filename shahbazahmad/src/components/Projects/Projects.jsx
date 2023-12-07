@@ -35,36 +35,36 @@ function Projects() {
               ? makeActive
               : { border: "1px solid #2C3333" }
           }
-          className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
+          className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          {"Full\xa0Stack"} ({projectsCount("fullstack").length})
+          {"Full\xa0Stack"} <span className="hidden bg-transparent md:block">({projectsCount("fullstack").length})</span>
         </div>
         <div
           onClick={() => setFilter("frontend")}
           style={
             filter === "frontend" ? makeActive : { border: "1px solid #2C3333" }
           }
-          className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
+          className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Frontend ({projectsCount("frontend").length})
+          Frontend <span className="hidden bg-transparent md:block">({projectsCount("frontend").length})</span>
         </div>
         <div
           onClick={() => setFilter("backend")}
           style={
             filter === "backend" ? makeActive : { border: "1px solid #2C3333" }
           }
-          className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
+          className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Backend ({projectsCount("backend").length})
+          Backend <span className="hidden bg-transparent md:block">({projectsCount("backend").length})</span>
         </div>
         <div
           onClick={() => setFilter("design")}
           style={
             filter === "design" ? makeActive : { border: "1px solid #2C3333" }
           }
-          className="px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
+          className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Design ({projectsCount("design").length})
+          Design <span className="hidden bg-transparent md:block">({projectsCount("design").length})</span>
         </div>
       </div>
       <div className="h-fit flex items-center justify-between xl:gap-0 md:gap-8 flex-wrap xl:pb-6 md:pb-14">
