@@ -29,6 +29,17 @@ function Projects() {
           All
         </div>
         <div
+          onClick={() => setFilter("ai")}
+          style={
+            filter === "ai"
+              ? makeActive
+              : { border: "1px solid #2C3333" }
+          }
+          className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
+        >
+          {"AI"} <span className="hidden bg-transparent md:block">({projectsCount("ai").length})</span>
+        </div>
+        <div
           onClick={() => setFilter("fullstack")}
           style={
             filter === "fullstack"

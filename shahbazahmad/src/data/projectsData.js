@@ -11,6 +11,7 @@ import scholify from "../assets/projects/scholify.png";
 import medicare from "../assets/projects/medicare.png";
 import recroot from "../assets/projects/recroot.png";
 import inventri from "../assets/projects/inventri.png";
+import lumos from "../assets/projects/lumos.png";
 
 /* Project Format
 {
@@ -30,6 +31,28 @@ import inventri from "../assets/projects/inventri.png";
 */
 
 export const projects = [
+  {
+    title: "Lumos AI",
+    description:
+      "SaaS AI Platform for content creation that can generate real-time content like code, image, video, and much more using the power of AI.",
+    img: lumos,
+    vid: "",
+    date: {
+      month: "December",
+      year: 2023,
+    },
+    tech: [
+      "Open\xa0AI",
+      "Next.js",
+      "TypeScript",
+      "Radix\xa0UI",
+      "Tailwind\xa0CSS",
+      "Prisma",
+    ],
+    source: "https://github.com/shahbazcse/Lumos",
+    live: "https://getlumos.vercel.app/",
+    tags: ["ai", "fullstack"],
+  },
   {
     title: "Codegram",
     description:
