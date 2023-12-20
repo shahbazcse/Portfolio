@@ -16,7 +16,7 @@ function ItemsContainer() {
           style={menu === "Projects" ? makeActive : {}}
           className="tracking-wide hover:text-stone-300"
         >
-          Projects
+          Products
         </button>
         <div className="flex items-center" style={{gap: "-0.6px"}}>
           <button
