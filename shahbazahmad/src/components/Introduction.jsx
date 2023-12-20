@@ -24,7 +24,7 @@ function Introduction() {
         href={resumeLink}
         target="_blank"
         rel="noreferrer"
-        className="flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 text-white px-3 py-1.5 rounded-md cursor-pointer mr-auto"
+        className="flex items-center gap-1.5 bg-zinc-900 hover:bg-zinc-800 transition delay-200 duration-700 text-white px-3 py-1.5 rounded-md cursor-pointer mr-auto"
       >
         <span className="cursor-pointer bg-transparent text-[0.9rem]">
           View Resume
