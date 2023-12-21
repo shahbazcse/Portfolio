@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
         alt="Project Image"
         className="object-cover rounded-xl"
       />
-      <p className="text-white text-[1.1rem] font-bold tracking-wide">
+      <p className="text-white text-[1.1rem] mt-1 sm:mt-0 font-bold tracking-wide">
         {title}
       </p>
       <p className="h-fit overflow-auto">{description}</p>
