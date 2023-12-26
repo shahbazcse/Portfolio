@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
     <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[37vh] w-full my-6 text-[0.9rem]">
       <img
         src={img || "https://placehold.co/600x400"}
-        alt="Project Image"
+        alt="Project"
         className="object-cover rounded-xl"
       />
       <p className="text-white text-[1.1rem] mt-1 sm:mt-0 font-bold tracking-wide">
@@ -31,7 +31,7 @@ function ProjectCard({ project }) {
             href={source}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-1 bg-zinc-900 hover:bg-zinc-800 transition delay-200 duration-700 rounded-lg text-white font-bold cursor-pointer"
+            className="flex items-center justify-center gap-2 px-4 py-1 bg-zinc-900 hover:bg-zinc-800 duration-700 rounded-lg text-white font-bold cursor-pointer"
           >
             <span className="bg-transparent">Source</span>
             <AiFillGithub className="bg-transparent h-4 w-4" />
@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
             href={live}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center justify-center gap-1.5 px-3 py-1 bg-zinc-900 hover:bg-zinc-800 transition delay-200 duration-700 rounded-lg text-white font-bold cursor-pointer"
+            className="flex items-center justify-center gap-1.5 px-3 py-1 bg-zinc-900 hover:bg-zinc-800 duration-700 rounded-lg text-white font-bold cursor-pointer"
           >
             <span className="bg-transparent">Live</span>
             <PiArrowSquareOutBold className="bg-transparent h-4 w-4 mb-0.5" />
