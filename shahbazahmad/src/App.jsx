@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App flex flex-col mx-auto w-full sm:w-[53rem] xl:w-[80rem] px-6 h-screen text-[#989999] leading-7 font-manrope">
+    <div className="App flex flex-col mx-auto w-full lg:w-[53rem] xl:w-[80rem] px-6 h-screen text-[#989999] leading-7 font-manrope">
       <NavBar />
       <Introduction />
       <ItemsContainer />
