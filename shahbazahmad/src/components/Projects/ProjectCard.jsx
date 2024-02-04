@@ -5,7 +5,7 @@ import { PiArrowSquareOutBold } from "react-icons/pi";
 function ProjectCard({ project }) {
   const { title, description, img, date, tech, source, live } = project;
   return (
-    <div className="flex flex-col gap-3 bg-transparent h-max xl:w-[34vh] md:w-[37vh] w-full my-6 text-[0.9rem]">
+    <div className="flex flex-col gap-3 md:h-[33rem] w-full sm:w-[24rem] mt-6 text-[0.9rem]">
       <img
         src={img || "https://placehold.co/600x400"}
         alt="Project"
@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
         {title}
       </p>
       <p className="h-fit overflow-auto">{description}</p>
-      <div className="flex items-start gap-1 text-[0.8rem] font-poppins md:flex-wrap md:overflow-none md:h-[6.9vh] overflow-x-auto h-fit">
+      <div className="flex items-start gap-1 text-[0.8rem] font-poppins sm:flex-wrap md:overflow-none overflow-x-auto no-scrollbar">
         {tech.map((i, index) => (
           <div
             key={index}
@@ -25,7 +25,7 @@ function ProjectCard({ project }) {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-3">
         <div className="flex items-center gap-4 font-raleway text-[0.8rem] sm:mt-2">
           <a
             href={source}
@@ -46,7 +46,7 @@ function ProjectCard({ project }) {
             <PiArrowSquareOutBold className="bg-transparent h-4 w-4 mb-0.5" />
           </a>
         </div>
-        <div className="text-[0.8rem] mr-2 text-white mt-auto tracking-wide font-roboto">
+        <div className="text-[0.8rem] ml-1 mr-2 text-white mt-auto tracking-wide font-roboto">
           {date?.month}, {date?.year}
         </div>
       </div>

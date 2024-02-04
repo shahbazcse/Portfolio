@@ -18,7 +18,7 @@ function Projects() {
 
   return (
     <div className="flex flex-col">
-      <div className="md:my-4 mt-4 flex items-start gap-2 text-[0.8rem] text-white font-manrope font-bold tracking-wide md:flex-wrap md:overflow-none overflow-x-auto h-fit">
+      <div className="sm:my-4 mt-4 flex items-start gap-2 text-[0.8rem] text-white font-manrope font-bold tracking-wide md:flex-wrap md:overflow-none overflow-x-auto no-scrollbar h-fit">
         <div
           onClick={() => setFilter("all")}
           style={
@@ -37,7 +37,7 @@ function Projects() {
           }
           className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          {"AI"} <span className="hidden bg-transparent md:block">({projectsCount("ai").length})</span>
+          {"AI"} <span className="hidden bg-transparent sm:block">({projectsCount("ai").length})</span>
         </div>
         <div
           onClick={() => setFilter("fullstack")}
@@ -48,7 +48,7 @@ function Projects() {
           }
           className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          {"Full\xa0Stack"} <span className="hidden bg-transparent md:block">({projectsCount("fullstack").length})</span>
+          {"Full\xa0Stack"} <span className="hidden bg-transparent sm:block">({projectsCount("fullstack").length})</span>
         </div>
         <div
           onClick={() => setFilter("frontend")}
@@ -57,7 +57,7 @@ function Projects() {
           }
           className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Frontend <span className="hidden bg-transparent md:block">({projectsCount("frontend").length})</span>
+          Frontend <span className="hidden bg-transparent sm:block">({projectsCount("frontend").length})</span>
         </div>
         <div
           onClick={() => setFilter("backend")}
@@ -66,7 +66,7 @@ function Projects() {
           }
           className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Backend <span className="hidden bg-transparent md:block">({projectsCount("backend").length})</span>
+          Backend <span className="hidden bg-transparent sm:block">({projectsCount("backend").length})</span>
         </div>
         <div
           onClick={() => setFilter("design")}
@@ -75,10 +75,10 @@ function Projects() {
           }
           className="flex gap-1 px-3 my-0.5 rounded-md cursor-pointer bg-zinc-900 hover:bg-zinc-800"
         >
-          Design <span className="hidden bg-transparent md:block">({projectsCount("design").length})</span>
+          Design <span className="hidden bg-transparent sm:block">({projectsCount("design").length})</span>
         </div>
       </div>
-      <div className="h-fit flex items-center justify-start xl:gap-[2.4rem] md:gap-8 flex-wrap xl:pb-6 md:pb-14">
+      <div className="h-fit flex items-start justify-start gap-y-[1.5rem] xl:gap-y-[1.5rem] xl:gap-x-[2.4rem] mb-8 md:mb-0 sm:gap-8 flex-wrap xl:pb-12 md:pb-14">
         {filteredProjects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}

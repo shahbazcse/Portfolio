@@ -18,7 +18,7 @@ function ItemsContainer() {
         >
           Products
         </button>
-        <div className="flex items-center" style={{gap: "-0.6px"}}>
+        <div className="flex items-center" style={{ gap: "-0.6px" }}>
           <button
             onClick={() => setMenu("Blogs")}
             style={menu === "Blogs" ? makeActive : {}}
