@@ -5,7 +5,7 @@ import { resume as resumeLink } from "../data/resume";
 
 function Introduction() {
   return (
-    <div className="flex flex-col lg:w-[36rem] gap-5 mt-4 mb-8 text-md">
+    <div className="flex flex-col md:w-[36rem] gap-5 mt-4 mb-8 text-md">
       <div>
         <img src={logo} alt="logo" className="h-10 w-10" />
       </div>
