@@ -12,6 +12,7 @@ import medicare from "../assets/projects/medicare.png";
 import recroot from "../assets/projects/recroot.png";
 import inventri from "../assets/projects/inventri.png";
 import lumos from "../assets/projects/lumos.png";
+import dwelo from "../assets/projects/dwelo.png";
 
 /* Project Format
 {
@@ -45,7 +46,7 @@ export const projects = [
       "Open\xa0AI",
       "Next.js",
       "TypeScript",
-      "Radix\xa0UI",
+      "Shadcn/ui",
       "Tailwind\xa0CSS",
       "Prisma",
     ],
@@ -88,6 +89,21 @@ export const projects = [
     source: "https://github.com/shahbazcse/PixelUI",
     live: "https://pixelui.vercel.app/",
     tags: ["frontend", "design"],
+  },
+  {
+    title: "Dwelo",
+    description:
+      "Simplifying hotel bookings with a user-friendly app, offering convenience and personalized experiences for travelers.",
+    img: dwelo,
+    vid: "",
+    date: {
+      month: "March",
+      year: 2024,
+    },
+    tech: ["React.js", "Node.js", "Redux", "MongoDB", "Shadcn/ui", "Tailwind\xa0CSS"],
+    source: "https://github.com/shahbazcse/dwelo",
+    live: "https://dwelo.vercel.app",
+    tags: ["frontend", "fullstack"],
   },
   {
     title: "Tastio | Restaurant Management",
@@ -174,7 +190,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -196,7 +212,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -233,7 +249,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -255,7 +271,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -277,7 +293,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
@@ -299,7 +315,7 @@ export const projects = [
     },
     tech: [
       "React.js",
-      "Redux\xa0Toolkit",
+      "Redux",
       "Node.js",
       "Express.js",
       "MongoDB",
