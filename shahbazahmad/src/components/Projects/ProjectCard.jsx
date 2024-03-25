@@ -6,11 +6,13 @@ function ProjectCard({ project }) {
   const { title, description, img, date, tech, source, live } = project;
   return (
     <div className="flex flex-col gap-3 md:h-[33rem] w-full sm:w-full md:w-[24rem] mt-6 text-[0.9rem]">
-      <img
-        src={img || "https://placehold.co/600x400"}
-        alt="Project"
-        className="object-cover rounded-xl"
-      />
+      <a href={live} target="_blank" rel="noreferrer">
+        <img
+          src={img || "https://placehold.co/600x400"}
+          alt="Project"
+          className="object-cover rounded-xl hover:scale-105 transition duration-500 ease-in-out cursor-pointer"
+        />
+      </a>
       <p className="text-white text-[1.1rem] mt-1 sm:mt-0 font-bold tracking-wide">
         {title}
       </p>
