@@ -13,6 +13,9 @@ function Introduction() {
         I'm <span className="text-white">Shahbaz</span>, a developer, designer,
         and problem solver.
       </div>
+      <div className="text-gray-200 font-nun">
+        Product Engineer @ <a className="from-purple-300 to-purple-400 bg-gradient-to-r bg-clip-text text-transparent tracking-wider font-manrope" target="_blank" href="https://www.getmerlin.in">Merlin AI</a>
+      </div>
       <div>
         Specializing in crafting dynamic, <span className="text-gray-200">engaging interfaces</span> with
         clean and optimized code, I excel in creating seamless and intuitive{" "}
